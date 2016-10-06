@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A19AA5401DA714CB00C671AB /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AA53D1DA714CB00C671AB /* DataCache.swift */; };
+		A19AA5411DA714CB00C671AB /* Dictionary+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AA53E1DA714CB00C671AB /* Dictionary+Cache.swift */; };
+		A19AA5421DA714CB00C671AB /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AA53F1DA714CB00C671AB /* String+MD5.swift */; };
+		A19AA5481DA716EC00C671AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A19AA5471DA716EC00C671AB /* GoogleService-Info.plist */; };
+		A19AA54A1DA7177C00C671AB /* ClapbackStickerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AA5491DA7177C00C671AB /* ClapbackStickerBrowserViewController.swift */; };
+		A19AA54C1DA7179700C671AB /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AA54B1DA7179700C671AB /* Firebase.swift */; };
+		A19AA54E1DA717C200C671AB /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AA54D1DA717C200C671AB /* Sticker.swift */; };
+		A19AA5501DA7188B00C671AB /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19AA54F1DA7188B00C671AB /* FileManager.swift */; };
 		A1BFFA671DA71353003ABC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BFFA661DA71353003ABC18 /* Assets.xcassets */; };
 		A1BFFA6E1DA71353003ABC18 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1BFFA6D1DA71353003ABC18 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A1BFFA731DA71353003ABC18 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BFFA721DA71353003ABC18 /* Messages.framework */; };
 		A1BFFA761DA71353003ABC18 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BFFA751DA71353003ABC18 /* MessagesViewController.swift */; };
 		A1BFFA791DA71353003ABC18 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BFFA771DA71353003ABC18 /* MainInterface.storyboard */; };
 		A1BFFA7B1DA71353003ABC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BFFA7A1DA71353003ABC18 /* Assets.xcassets */; };
+		A29D691D8915EDCDFF382AF6 /* Pods_MessagesExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5E5C62329B7CA76630F14E /* Pods_MessagesExtension.framework */; };
+		F127A2D33090DF32E43405F7 /* Pods_Clapbacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228FB1DB8AEBBEE26EB95254 /* Pods_Clapbacks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		228FB1DB8AEBBEE26EB95254 /* Pods_Clapbacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clapbacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A304B7C74DF7581D8561A4 /* Pods-Clapbacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapbacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clapbacks/Pods-Clapbacks.release.xcconfig"; sourceTree = "<group>"; };
+		25FF1E5F569815C4F21E6DFE /* Pods-MessagesExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagesExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		6B5E5C62329B7CA76630F14E /* Pods_MessagesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessagesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC03F3729AD32A7D90E6055 /* Pods-Clapbacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clapbacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clapbacks/Pods-Clapbacks.debug.xcconfig"; sourceTree = "<group>"; };
+		A19AA53D1DA714CB00C671AB /* DataCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCache.swift; sourceTree = "<group>"; };
+		A19AA53E1DA714CB00C671AB /* Dictionary+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Cache.swift"; sourceTree = "<group>"; };
+		A19AA53F1DA714CB00C671AB /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
+		A19AA5441DA7151300C671AB /* MessagesExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MessagesExtension-Bridging-Header.h"; sourceTree = "<group>"; };
+		A19AA5471DA716EC00C671AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A19AA5491DA7177C00C671AB /* ClapbackStickerBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClapbackStickerBrowserViewController.swift; sourceTree = "<group>"; };
+		A19AA54B1DA7179700C671AB /* Firebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		A19AA54D1DA717C200C671AB /* Sticker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
+		A19AA54F1DA7188B00C671AB /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		A1BFFA631DA71353003ABC18 /* Clapbacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clapbacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BFFA661DA71353003ABC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1BFFA681DA71353003ABC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,27 +73,49 @@
 		A1BFFA781DA71353003ABC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		A1BFFA7A1DA71353003ABC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1BFFA7C1DA71353003ABC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D538E5059B98D9A61A37095E /* Pods-MessagesExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagesExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4CC755BD8A9725EE60C14CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F127A2D33090DF32E43405F7 /* Pods_Clapbacks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1BFFA6A1DA71353003ABC18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A1BFFA731DA71353003ABC18 /* Messages.framework in Frameworks */,
+				A29D691D8915EDCDFF382AF6 /* Pods_MessagesExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A19AA53C1DA7149400C671AB /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A19AA53D1DA714CB00C671AB /* DataCache.swift */,
+				A19AA53E1DA714CB00C671AB /* Dictionary+Cache.swift */,
+				A19AA53F1DA714CB00C671AB /* String+MD5.swift */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		A1BFFA5C1DA71353003ABC18 = {
 			isa = PBXGroup;
 			children = (
 				A1BFFA651DA71353003ABC18 /* Clapbacks */,
 				A1BFFA741DA71353003ABC18 /* MessagesExtension */,
 				A1BFFA711DA71353003ABC18 /* Frameworks */,
+				A19AA53C1DA7149400C671AB /* Libraries */,
 				A1BFFA641DA71353003ABC18 /* Products */,
+				FC3447342EA998F4C3BD0130 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				A1BFFA721DA71353003ABC18 /* Messages.framework */,
+				228FB1DB8AEBBEE26EB95254 /* Pods_Clapbacks.framework */,
+				6B5E5C62329B7CA76630F14E /* Pods_MessagesExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,11 +151,28 @@
 			isa = PBXGroup;
 			children = (
 				A1BFFA751DA71353003ABC18 /* MessagesViewController.swift */,
+				A19AA5491DA7177C00C671AB /* ClapbackStickerBrowserViewController.swift */,
+				A19AA54B1DA7179700C671AB /* Firebase.swift */,
+				A19AA54D1DA717C200C671AB /* Sticker.swift */,
+				A19AA54F1DA7188B00C671AB /* FileManager.swift */,
 				A1BFFA771DA71353003ABC18 /* MainInterface.storyboard */,
 				A1BFFA7A1DA71353003ABC18 /* Assets.xcassets */,
 				A1BFFA7C1DA71353003ABC18 /* Info.plist */,
+				A19AA5471DA716EC00C671AB /* GoogleService-Info.plist */,
+				A19AA5441DA7151300C671AB /* MessagesExtension-Bridging-Header.h */,
 			);
 			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		FC3447342EA998F4C3BD0130 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EC03F3729AD32A7D90E6055 /* Pods-Clapbacks.debug.xcconfig */,
+				25A304B7C74DF7581D8561A4 /* Pods-Clapbacks.release.xcconfig */,
+				25FF1E5F569815C4F21E6DFE /* Pods-MessagesExtension.debug.xcconfig */,
+				D538E5059B98D9A61A37095E /* Pods-MessagesExtension.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,8 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1BFFA831DA71353003ABC18 /* Build configuration list for PBXNativeTarget "Clapbacks" */;
 			buildPhases = (
+				CAD0F97E01D5F155C52421E4 /* [CP] Check Pods Manifest.lock */,
 				A1BFFA611DA71353003ABC18 /* Resources */,
 				A1BFFA821DA71353003ABC18 /* Embed App Extensions */,
+				4CC755BD8A9725EE60C14CC3 /* Frameworks */,
+				F8FA2B356DE4515340B9473A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1BFFA7F1DA71353003ABC18 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
 			buildPhases = (
+				CBCB608D632DFC3F05D13895 /* [CP] Check Pods Manifest.lock */,
 				A1BFFA691DA71353003ABC18 /* Sources */,
 				A1BFFA6A1DA71353003ABC18 /* Frameworks */,
 				A1BFFA6B1DA71353003ABC18 /* Resources */,
+				FB37E80964CD2A8BA5F29679 /* [CP] Embed Pods Frameworks */,
+				FB3A3FA66565587A317B7DB3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,6 +236,7 @@
 					A1BFFA6C1DA71353003ABC18 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 26TV24DK6Z;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -203,17 +275,103 @@
 			files = (
 				A1BFFA7B1DA71353003ABC18 /* Assets.xcassets in Resources */,
 				A1BFFA791DA71353003ABC18 /* MainInterface.storyboard in Resources */,
+				A19AA5481DA716EC00C671AB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAD0F97E01D5F155C52421E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCB608D632DFC3F05D13895 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8FA2B356DE4515340B9473A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clapbacks/Pods-Clapbacks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB37E80964CD2A8BA5F29679 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3A3FA66565587A317B7DB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1BFFA691DA71353003ABC18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19AA54C1DA7179700C671AB /* Firebase.swift in Sources */,
+				A19AA5401DA714CB00C671AB /* DataCache.swift in Sources */,
+				A19AA5411DA714CB00C671AB /* Dictionary+Cache.swift in Sources */,
+				A19AA54A1DA7177C00C671AB /* ClapbackStickerBrowserViewController.swift in Sources */,
 				A1BFFA761DA71353003ABC18 /* MessagesViewController.swift in Sources */,
+				A19AA54E1DA717C200C671AB /* Sticker.swift in Sources */,
+				A19AA5421DA714CB00C671AB /* String+MD5.swift in Sources */,
+				A19AA5501DA7188B00C671AB /* FileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,39 +490,50 @@
 		};
 		A1BFFA801DA71353003ABC18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25FF1E5F569815C4F21E6DFE /* Pods-MessagesExtension.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 26TV24DK6Z;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dopenessacademy.Clapbacks.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MessagesExtension/MessagesExtension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A1BFFA811DA71353003ABC18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D538E5059B98D9A61A37095E /* Pods-MessagesExtension.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 26TV24DK6Z;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dopenessacademy.Clapbacks.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MessagesExtension/MessagesExtension-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		A1BFFA841DA71353003ABC18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC03F3729AD32A7D90E6055 /* Pods-Clapbacks.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26TV24DK6Z;
 				INFOPLIST_FILE = Clapbacks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dopenessacademy.Clapbacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -374,11 +543,13 @@
 		};
 		A1BFFA851DA71353003ABC18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A304B7C74DF7581D8561A4 /* Pods-Clapbacks.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26TV24DK6Z;
 				INFOPLIST_FILE = Clapbacks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dopenessacademy.Clapbacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -405,6 +576,7 @@
 				A1BFFA811DA71353003ABC18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1BFFA831DA71353003ABC18 /* Build configuration list for PBXNativeTarget "Clapbacks" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +585,7 @@
 				A1BFFA851DA71353003ABC18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
