@@ -14,11 +14,16 @@ import FirebaseDatabase
 
 class MessagesViewController: MSMessagesAppViewController {
     
+    static let once: Int = {
+        FIRApp.configure()
+        BuddyBuildSDK.setup()
+        FIRDatabase.database().persistenceEnabled = true
+        return 0
+    }()
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        BuddyBuildSDK.setup()
-        FIRApp.configure()
-        FIRDatabase.database().persistenceEnabled = true
+        _ = MessagesViewController.once
     }
     
     var storage: FIRStorage!
@@ -42,7 +47,7 @@ class MessagesViewController: MSMessagesAppViewController {
         self.observeStickerRemoved()
     }
     
-    override func didReceive(_ message: MSMessage, conversation: MSConversation) {
+   /* override func didReceive(_ message: MSMessage, conversation: MSConversation) {
         self.increment(answers: .ClapbacksRecieved)
     }
     
@@ -52,7 +57,7 @@ class MessagesViewController: MSMessagesAppViewController {
     
     override func didCancelSending(_ message: MSMessage, conversation: MSConversation) {
         self.increment(answers: .ClapbacksCancelled)
-    }
+    }*/
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

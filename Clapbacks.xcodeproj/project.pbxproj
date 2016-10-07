@@ -208,6 +208,7 @@
 				A1BFFA6B1DA71353003ABC18 /* Resources */,
 				FB37E80964CD2A8BA5F29679 /* [CP] Embed Pods Frameworks */,
 				FB3A3FA66565587A317B7DB3 /* [CP] Copy Pods Resources */,
+				A1B5D83C1DA749E7003309BA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -282,6 +283,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A1B5D83C1DA749E7003309BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" || exit 1\nif [[ -d \"Frameworks\" ]]; then\n    rm -rf Frameworks\nfi\n";
+		};
 		CAD0F97E01D5F155C52421E4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -492,7 +506,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25FF1E5F569815C4F21E6DFE /* Pods-MessagesExtension.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 26TV24DK6Z;
@@ -511,7 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D538E5059B98D9A61A37095E /* Pods-MessagesExtension.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 26TV24DK6Z;
@@ -529,7 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9EC03F3729AD32A7D90E6055 /* Pods-Clapbacks.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26TV24DK6Z;
 				INFOPLIST_FILE = Clapbacks/Info.plist;
@@ -545,7 +559,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25A304B7C74DF7581D8561A4 /* Pods-Clapbacks.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26TV24DK6Z;
 				INFOPLIST_FILE = Clapbacks/Info.plist;
