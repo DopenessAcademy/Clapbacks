@@ -20,5 +20,6 @@ class ClapbackStickerBrowserViewController: MSStickerBrowserViewController {
     override func stickerBrowserView(_ stickerBrowserView: MSStickerBrowserView, stickerAt index: Int) -> MSSticker {
         return self.stickers[index]
     }
+    
 }
 

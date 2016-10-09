@@ -32,6 +32,10 @@ extension MessagesViewController {
                 sticker = Sticker(name: snapshot.key, downloadURL: downloadUrl as! String)
             }
             
+            /*
+             If a sticker already exists in cache with the downloadULR key, load it from the cache instead
+             If no sticker exists with the downloadURL as identifier, download it from the server.
+            */
             if let cachedImage = DataCache.instance.readImageForKey(key: sticker.downloadURL)  {
                 sticker.localURL = imageToURL(stickerName: sticker.name, image: cachedImage)
                 self.createSticker(sticker: sticker)
@@ -74,8 +78,8 @@ extension MessagesViewController {
         }
     }
     
-    //  Increment count of these actions in the database by all users
-    func increment(answers: Answers) {
+    // Increment count of these actions in the database by all users
+    /*func increment(answers: Answers) {
         switch answers {
         case .ClapbacksSent:
             self.transaction(action: answers.rawValue)
@@ -104,6 +108,6 @@ extension MessagesViewController {
                 print(error.localizedDescription)
             }
         }
-    }
+    }*/
 }
 
